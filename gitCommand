@@ -1,0 +1,5 @@
+git remote add origin https://github.com/TTYeh/SQL_practice.git
+
+git commit -m "file update"
+
+git push -u origin main
