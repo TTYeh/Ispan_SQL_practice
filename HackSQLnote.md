@@ -1,7 +1,6 @@
 # ispan SQL Class
 
 
-
 ## 資料庫基本
 ### 資料庫歷史
 ANSI SQL(通用SQL)，在微軟加入變數、流程、函數之下變成T-SQL
@@ -106,7 +105,7 @@ ex:table前面帶dbo
 ![](https://i.imgur.com/uHbYIW7.png)
 下圖說明:具名管道 TCP/IP都打開
 ![](https://i.imgur.com/2l6XH86.png)
-
+Null值append後還是null
 
 ## 操作資料庫
 ### 建立資料庫
@@ -250,7 +249,9 @@ like
   1.資料庫定序中(collate)如果包含_CS --> CASE SENSITIVE
   2.資料庫定序中(collate)如果包含_CI --> CASE INSENSITIVE
 ex: 'Broker','BROKER','broker' 
-                        
+
+
+
 ### 資料庫效能優化
   - 注意 NOT IN 會降低系統執行效率，儘量少用。
   - 注意 NOT BETWEEN 會降低系統執行效率，儘量少用。
